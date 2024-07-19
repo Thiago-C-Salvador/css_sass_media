@@ -1,0 +1,82 @@
+@import '../other/variaveis';
+@import '../other/mixins';
+
+
+//mixins
+    // configDefaultElement($display, $flex-flow, $just-cont, $alg-items, $width, $height, $position)
+    // display_Flex_just-cont_align-items_flex($display, $flex-f, $just-cont, $alg-items)
+    // configBotao($bg-color, $padding, $border-radius,$border, $color )
+
+//variaveis de cor
+    // $primary-1
+    // $primary-2
+    // $commom-1
+    // $light-1
+    // $light-2
+    // $strong-impact
+    // $ligth-fund
+    // $border-cards
+
+.navbar{
+    @include configDefaultElement(flex, row wrap, center, center, 100%, 100px, $primary-1);
+    // background: $primary-1;
+    position: fixed;
+
+    .logo{
+        display: flex;
+        justify-content: start;
+        align-items: end;
+        flex:25%;
+        height: 90%;
+        /* border: 2px solid yellow; */
+        margin-left: 10%;
+        cursor: context-menu;
+
+        h1{
+            @include logoEscrita();
+            font-size: 50px;
+        }
+    }
+
+    .menu{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        flex: 55%;
+        /* border: 2px solid yellow; */
+        margin-right: 10%;
+
+        a{
+            color: $strong-impact;
+            opacity: 0.6;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            padding: 0px 8px;
+
+            &:hover{
+                opacity: 0.9;
+                font-weight: 800;
+                }
+        }
+
+        #fale-conosco{
+            @include configBotao($ligth-fund, 8px, 6px , none, $primary-1, 1 );
+            margin-left: 3%;
+            text-shadow: 2px 3px 2px $strong-impact;
+            &:hover{
+                border-bottom: 2px solid $strong-impact;
+                border-right: 2px solid $strong-impact;
+            }
+            &:active{
+                font-weight: 600;
+                border-bottom: none;
+                border-right: none;
+                /* border-left: 2px solid #0dd;
+                border-top: 2px solid #0dd;*/
+                border-left: 2px solid $strong-impact;
+                border-top: 2px solid $strong-impact;
+            }
+        }
+    }
+}

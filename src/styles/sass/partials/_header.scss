@@ -1,0 +1,88 @@
+@import '../other/variaveis';
+@import '../other/mixins';
+
+//mixins
+    // configDefaultElement($display, $flex-flow, $just-cont, $alg-items, $width, $height, $position)
+    // configBotao($bg-color, $padding, $border-radius,$border, $color )
+
+//variaveis de cor
+    // $primary-1
+    // $primary-2
+    // $commom-1
+    // $light-1
+    // $light-2
+    // $strong-impact
+    // $ligth-fund
+    // $border-cards
+
+header{
+    @include configDefaultElement(flex, row wrap, space-around, center, auto, auto, static);
+    /* poderia estar tirando o position e o top e colocar apenas um padding-top do mesmo tamanho do bloco navbar ; */
+    /* position: relative;
+    top: 100px; */
+    padding-top: 100px;
+
+    .headline{
+        flex: 45%;
+        margin: 0 0% 0% 10% ;
+        background: linear-gradient(to right, $light-2 80%, $primary-1);  
+        padding: 10px;
+        border-radius: 10px 0px 0px 10px;
+        h2{
+            margin: 0px;
+        }
+
+        .headline_h2{
+            font-size: 80px;
+            font-family: 'Maname', serif;
+            margin-top: -30px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        p{
+            line-height: 25px;
+            text-align: justify;
+            font-weight: 400;
+            margin: 0;
+        }
+
+        .caixa-btn-produtos{
+            .btn-produtos{
+                display: inline-block;
+                text-decoration: none;
+                text-transform: uppercase;
+                padding: 6px;
+                border: none;
+                border-radius: 4px;
+                background-color: $commom-1;
+                font-weight: 600;
+                margin-top: 10px;
+                color: $light-1;
+    
+                &:hover
+                {
+                    box-shadow: 1px 1px 10px 2px $strong-impact;
+                }
+                &:active
+                {
+                    text-shadow: 1px 1px 10px $primary-1;
+                    font-weight: 700;
+                }
+            }
+        }
+
+    }
+    
+    .img-headline{
+        flex: 35%;
+        display: flex;
+        justify-content: end;
+        margin: 0 10% 0% 0% ;
+        img{
+            width: 500px;
+            max-height: 310px;
+            border-radius: 0px 10px 10px 0px;
+        }
+    }
+}

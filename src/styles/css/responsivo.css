@@ -1,0 +1,222 @@
+
+
+@media (min-width: 1425px) and (max-width: 1429px) {
+
+    .navbar{position: relative;}
+    .navbar .menu{display: none}
+    .navbar .logo{margin: 0; align-items: center; justify-content: center;}
+
+    header{padding-top: 20px; margin-left: 10%; margin-right: 10%;}
+    header .headline{margin: 0;}   
+    header .headline h2{font-size: 22px; margin-bottom: 20px;}
+    header .headline .headline_h2 { font-size: 60px;}
+    header .headline p {line-height: 20px; font-size: 20px;}
+    header .img-headline{margin: 0%;}
+    header .img-headline img {width: 500px; max-height: 310px; }
+
+    header .headline .btn-produtos {font-size: 18px;}
+}
+
+@media (min-width: 1250px) and (max-width: 1424px) {
+
+    .navbar{position: relative;}
+    .navbar .menu{display: none}
+    .navbar .logo{margin: 0; align-items: center; justify-content: center;}
+
+    header{padding-top: 20px; margin-left: 10%; margin-right: 10%;}
+    header .headline{margin: 0; flex: 55% }   
+    header .headline h2{font-size: 22px; margin-bottom: 20px;}
+    header .headline .headline_h2 { font-size: 60px;}
+    header .headline p {line-height: 20px; font-size: 20px;}
+    header .img-headline{margin: 0%;}
+    header .img-headline img {width: 440px; max-height: 320px; }
+
+    header .headline .btn-produtos {font-size: 16px;}
+}
+
+@media (min-width: 1221px) and (max-width: 1249px) {
+
+    .navbar{position: relative;}
+    .navbar .menu{display: none}
+    .navbar .logo{margin: 0; align-items: center; justify-content: center;}
+
+    header{padding-top: 20px; margin-left: 10%; margin-right: 10%;}
+    header .headline{margin: 0; flex: 50% }   
+    header .headline h2{font-size: 22px; margin-bottom: 20px;}
+    header .headline .headline_h2 { font-size: 60px;}
+    header .headline p {line-height: 24px; font-size: 18px;}
+    header .img-headline{margin: 0%;}
+    header .img-headline img {width: 420px; max-height: 340px; }
+
+    header .headline .btn-produtos {font-size: 16px;}
+}
+
+@media (min-width: 1185px) and (max-width: 1220px) {
+
+    .navbar{position: relative;}
+    .navbar .menu{display: none}
+    .navbar .logo{margin: 0; align-items: center; justify-content: center;}
+
+    header{padding-top: 20px; margin-left: 10%; margin-right: 10%;}
+    header .headline{margin: 0; flex: 50% }   
+    header .headline h2{font-size: 20px; margin-bottom: 20px;}
+    header .headline .headline_h2 { font-size: 50px;}
+    header .headline p {line-height: 22px; font-size: 18px;}
+    header .img-headline{margin: 0%;}
+    header .img-headline img {width: 400px; max-height: 320px; }
+
+    header .headline .btn-produtos {font-size: 16px;}
+
+    section{ margin: 3% 10% 0% 10%; padding-bottom: 3%;}
+    section h2{font-size: 50px; margin: 0 4% 0 4%;}
+    section .itens-destacados{flex: 100%; margin: 2% 8% 0% 6%;}
+    section .itens-destacados .card{flex: 40%;}
+    section .itens-destacados .card p{text-align: center; line-height: 20px;}
+    
+    footer .link-rodape{margin-top: 15px}
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1184px) {
+
+    .navbar{position: relative;}
+    .navbar .menu{display: none}
+    .navbar .logo{margin: 0; align-items: center; justify-content: center;}
+
+    header{padding-top: 20px; margin-left: 10%; margin-right: 10%;}
+    header .headline{margin: 0; flex: 60% }   
+    header .headline h2{font-size: 18px; margin-bottom: 20px;}
+    header .headline .headline_h2 { font-size: 40px;}
+    header .headline p {line-height: 20px; font-size: 14px;}
+    header .img-headline{margin: 0%; flex:40%}
+    header .img-headline img {width: 350px; max-height: 260px; }
+
+    header .headline .btn-produtos {font-size: 11px;}
+
+    section{ margin: 3% 10% 0% 10%; padding-bottom: 3%;}
+    section h2{font-size: 50px; margin: 0 4% 0 4%;}
+    section .itens-destacados{flex: 100%; margin: 2% 8% 0% 6%;}
+    section .itens-destacados .card{flex: 40%;}
+    section .itens-destacados .card p{text-align: center; line-height: 20px;}
+    
+    footer .link-rodape{margin-top: 15px}
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1099px) {
+
+    .navbar{position: relative;}
+    .navbar .menu{display: none}
+    .navbar .logo{margin: 0; align-items: center; justify-content: center;}
+
+    header{padding-top: 20px; margin-left: 10%; margin-right: 10%;}
+    header .headline{margin: 0; flex: 50% }   
+    header .headline h2{font-size: 20px; margin-bottom: 16px;}
+    header .headline .headline_h2 { font-size: 48px;}
+    header .headline p {line-height: 20px; font-size: 13px;}
+    header .img-headline{margin: 0%;}
+    header .img-headline img {width: 400px; max-height: 320px; }
+
+    header .headline .btn-produtos {font-size: 14px;}
+
+    section{ margin: 3% 10% 0% 10%; padding-bottom: 3%;}
+    section h2{font-size: 50px; margin: 0 4% 0 4%;}
+    section .itens-destacados{flex: 100%; margin: 2% 8% 0% 6%;}
+    section .itens-destacados .card{flex: 40%;}
+    section .itens-destacados .card p{text-align: center; line-height: 20px;}
+    
+    footer .link-rodape{margin-top: 15px}
+}
+
+
+@media only screen and (min-width:768px) and (max-width: 1000px) {
+
+    .navbar{position: relative;}
+    .navbar .menu{display: none}
+    .navbar .logo{margin: 0; align-items: center; justify-content: center;}
+
+    header{padding-top: 20px; margin-left: 10%; margin-right: 10%;}
+    header .headline{margin: 0; flex: 50% }   
+    header .headline h2{font-size: 16px; margin-bottom: 16px;}
+    header .headline .headline_h2 { font-size: 40px;}
+    header .headline p {line-height: 20px; font-size: 13px;}
+    header .img-headline{margin: 0%;}
+    header .img-headline img {width: 300px; max-height: 350px; }
+
+    header .headline .btn-produtos {font-size: 14px;}
+
+    section{ margin: 3% 10% 0% 10%; padding-bottom: 3%;}
+    section h2{font-size: 50px; margin: 0 4% 0 4%;}
+    section .itens-destacados{flex: 100%; margin: 2% 8% 0% 6%;}
+    section .itens-destacados .card{flex: 40%;}
+    section .itens-destacados .card p{text-align: center; line-height: 20px;}
+    
+    footer .link-rodape{margin-top: 15px}
+}
+
+
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+
+    .navbar{position: relative;}
+    .navbar .menu{display: none}
+    .navbar .logo{margin: 0; align-items: center; justify-content: center;}
+
+
+    header{padding-top: 20px; margin-left: 10%; margin-right: 10%;}
+    header .headline{margin: 0; margin-bottom: 10px;flex: 100%; background: #cbbdd8; border-radius: 10px;}   
+    header .headline h2{font-size: 12px; margin-bottom: 18px;}
+    header .headline .headline_h2 { font-size: 40px;}
+    header .headline p {line-height: 17px; font-size: 12px;}
+    header .img-headline{display: none;}
+
+    header .headline .caixa-btn-produtos{text-align: center;}
+    header .headline .caixa-btn-produtos .btn-produtos{ font-size: 10px; }
+
+    section{ margin: 2% 10% 0% 10%; padding-bottom: 3%;}
+    section h2{font-size: 25px; margin: 0 4% 0 4%;}
+    section .itens-destacados{flex: 100%; margin: 2% 15% 0% 15%;}
+    section .itens-destacados .card{flex: 100%;}
+    section .itens-destacados .card img{width: 45px}
+    section .itens-destacados .card h3{font-size: 15px; margin-top:0; margin-bottom:5px;}
+    section .itens-destacados .card p{text-align: center; font-size: 12px; line-height: 20px;}
+    section .itens-destacados .card .p-top-list{margin-bottom: 0;}
+    section .itens-destacados .card .list-oculta{font-size: 12px;}
+    .contato-whats img{width: 60px;}
+
+    footer .logo-rodape .agencia{font-size: 35px;}
+    footer .link-rodape{margin-top: 15px}
+}
+
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+
+    .navbar{position: relative;}
+    .navbar .menu{display: none}
+    .navbar .logo{margin: 0; align-items: center; justify-content: center;}
+
+
+    header{padding-top: 20px; margin-left: 10%; margin-right: 10%;}
+    header .headline{margin: 0; margin-bottom: 10px;flex: 100%; background: #cbbdd8; border-radius: 10px;}   
+    header .headline h2{font-size: 12px; margin-bottom: 18px;}
+    header .headline .headline_h2 { font-size: 40px;}
+    header .headline p {line-height: 17px; font-size: 12px;}
+    header .img-headline{display: none;}
+
+    header .headline .caixa-btn-produtos{text-align: center;}
+    header .headline .caixa-btn-produtos .btn-produtos{ font-size: 10px; }
+
+    section{ margin: 2% 10% 0% 10%; padding-bottom: 3%;}
+    section h2{font-size: 25px; margin: 0 4% 0 4%;}
+    section .itens-destacados{flex: 100%; margin: 2% 15% 0% 15%;}
+    section .itens-destacados .card{flex: 100%;}
+    section .itens-destacados .card img{width: 45px}
+    section .itens-destacados .card h3{font-size: 15px; margin-top:0; margin-bottom:5px;}
+    section .itens-destacados .card p{text-align: center; font-size: 12px; line-height: 20px;}
+    section .itens-destacados .card .p-top-list{margin-bottom: 0;}
+    section .itens-destacados .card .list-oculta{font-size: 12px;}
+    .contato-whats img{width: 60px;}
+
+    footer .logo-rodape .agencia{font-size: 35px;}
+    footer .link-rodape{margin-top: 15px}
+};
+
+   
+

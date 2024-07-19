@@ -1,0 +1,40 @@
+@import './variaveis';
+
+@mixin display_Flex_just-cont_align-items_flex($display, $flex-f, $just-cont, $alg-items)
+{
+    display: $display;
+    flex: $flex-f;
+    justify-content: $just-cont;
+    align-items: $alg-items;
+}
+
+@mixin configBotao($bg-color, $padding, $border-radius,$border, $color, $opacity )
+{
+    background-color: $bg-color;
+    padding: $padding;
+    border-radius: $border-radius;
+    border: $border;
+    color: $color;
+    opacity: $opacity;
+}
+
+@mixin configDefaultElement($display, $flex-flow, $just-cont, $alg-items, $width, $height, $bg)
+{
+    display: $display;
+    flex-flow: $flex-flow;
+    justify-content: $just-cont;
+    align-items: $alg-items;
+    width: $width;
+    height: $height;
+    background-color: $bg;
+}
+
+@mixin logoEscrita()
+{
+    font-family: "Maname", serif;
+    font-weight: 600;
+    font-size: 40px;
+    font-style: normal;
+    color: $light-1;
+    text-shadow: 1px 1px 1px $commom-1; 
+}

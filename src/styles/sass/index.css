@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap&family=Inter:wght@100..900&family=Maname&family=Playwrite+PE:wght@100..400&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  background-color: #fffbfb;
+}
+
+.navbar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  position: fixed;
+}
+.navbar .logo {
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  flex: 25%;
+  height: 90%;
+  /* border: 2px solid yellow; */
+  margin-left: 10%;
+  cursor: context-menu;
+}
+.navbar .logo h1 {
+  font-family: "Maname", serif;
+  font-weight: 600;
+  font-size: 40px;
+  font-style: normal;
+  color: #ccc;
+  text-shadow: 1px 1px 1px #000;
+  font-size: 50px;
+}
+.navbar .menu {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  flex: 55%;
+  /* border: 2px solid yellow; */
+  margin-right: 10%;
+}
+.navbar .menu a {
+  color: #452565;
+  opacity: 0.6;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 0px 8px;
+}
+.navbar .menu a:hover {
+  opacity: 0.9;
+  font-weight: 800;
+}
+.navbar .menu #fale-conosco {
+  background-color: #d3a9bb;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  opacity: 1;
+  margin-left: 3%;
+  text-shadow: 2px 3px 2px #452565;
+}
+.navbar .menu #fale-conosco:hover {
+  border-bottom: 2px solid #452565;
+  border-right: 2px solid #452565;
+}
+.navbar .menu #fale-conosco:active {
+  font-weight: 600;
+  border-bottom: none;
+  border-right: none;
+  /* border-left: 2px solid #0dd;
+  border-top: 2px solid #0dd;*/
+  border-left: 2px solid #452565;
+  border-top: 2px solid #452565;
+}
+
+header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: auto;
+  height: auto;
+  background-color: static;
+  /* poderia estar tirando o position e o top e colocar apenas um padding-top do mesmo tamanho do bloco navbar ; */
+  /* position: relative;
+  top: 100px; */
+  padding-top: 100px;
+}
+header .headline {
+  flex: 45%;
+  margin: 0 0% 0% 10%;
+  background: linear-gradient(to right, #cbbdd8 80%, #fff);
+  padding: 10px;
+  border-radius: 10px 0px 0px 10px;
+}
+header .headline h2 {
+  margin: 0px;
+}
+header .headline .headline_h2 {
+  font-size: 80px;
+  font-family: "Maname", serif;
+  margin-top: -30px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+header .headline p {
+  line-height: 25px;
+  text-align: justify;
+  font-weight: 400;
+  margin: 0;
+}
+header .headline .caixa-btn-produtos .btn-produtos {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 6px;
+  border: none;
+  border-radius: 4px;
+  background-color: #000;
+  font-weight: 600;
+  margin-top: 10px;
+  color: #ccc;
+}
+header .headline .caixa-btn-produtos .btn-produtos:hover {
+  box-shadow: 1px 1px 10px 2px #452565;
+}
+header .headline .caixa-btn-produtos .btn-produtos:active {
+  text-shadow: 1px 1px 10px #fff;
+  font-weight: 700;
+}
+header .img-headline {
+  flex: 35%;
+  display: flex;
+  justify-content: end;
+  margin: 0 10% 0% 0%;
+}
+header .img-headline img {
+  width: 500px;
+  max-height: 310px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+section {
+  flex: 100%;
+  margin: 2% 10% 0 10%;
+  background-color: #000;
+  border-radius: 10px;
+  border: 2px solid #452565;
+  /* position: relative;
+  top: 100px; */
+}
+section h2 {
+  margin: 0;
+  margin-top: 2%;
+  padding-top: 10px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 50px;
+  color: rgb(131, 232, 232);
+  text-shadow: 1px 2px 1px #452565;
+  text-align: center;
+}
+section .itens-destacados {
+  display: flex;
+  flex-flow: row wrap;
+}
+section .itens-destacados .card {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  padding: 20px 10px;
+  margin: 3% 1% 3% 1.8%;
+  border-radius: 8px;
+  background: linear-gradient(to top, #452565, #ccc);
+  cursor: pointer;
+}
+section .itens-destacados .card p {
+  font-weight: 400;
+  text-align: center;
+  line-height: 25px;
+  margin: 0;
+}
+section .itens-destacados .card .p-top-list {
+  margin-top: 10px;
+  color: #000;
+  margin-bottom: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+section .itens-destacados .card .p-top-list:hover {
+  text-decoration: underline;
+}
+section .itens-destacados .card .p-top-list:active .list-oculta {
+  text-decoration: none;
+  font-weight: 700;
+}
+section .itens-destacados .card .list-oculta {
+  margin: 0;
+  list-style: none;
+  float: left;
+  display: none;
+}
+section .itens-destacados .card .list-oculta li {
+  padding: 3px 0px;
+}
+section .itens-destacados .card .list-oculta li a {
+  text-decoration: none;
+  font-family: "Maname", serif;
+  color: #deb513;
+}
+section .itens-destacados .card .list-oculta li:hover {
+  font-weight: 700;
+}
+section .itens-destacados .card:hover {
+  border: 3px solid #deb513;
+  padding: 18px 8px;
+  box-shadow: 1px 1px 10px 1px #ccc;
+}
+
+footer {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: center;
+  height: 200px;
+  background-color: relative;
+  margin-top: 80px;
+  background: linear-gradient(180deg, #000, #452565);
+  /* position: relative;
+  top: 100px; */
+}
+footer .logo-rodape {
+  padding: 50px 0 0 0;
+}
+footer .agencia {
+  font-family: "Maname", serif;
+  font-weight: 600;
+  font-size: 40px;
+  font-style: normal;
+  color: #ccc;
+  text-shadow: 1px 1px 1px #000;
+}
+footer .link-rodape {
+  display: block;
+  color: #fff;
+  margin-top: 1%;
+  text-decoration: none;
+}
+footer .link-rodape:hover {
+  text-decoration: underline;
+}
+
+.contato-whats {
+  position: fixed;
+  bottom: 0;
+  right: 5px;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,44 @@
+@import '../other/variaveis';
+@import '../other/mixins';
+
+//mixins
+    // configDefaultElement($display, $flex-flow, $just-cont, $alg-items, $width, $height, $position)
+    // configBotao($bg-color, $padding, $border-radius,$border, $color )
+
+//variaveis de cor
+    // $primary-1
+    // $primary-2
+    // $commom-1
+    // $light-1
+    // $light-2
+    // $strong-impact
+    // $ligth-fund
+    // $border-cards
+
+footer{
+    @include configDefaultElement(flex, column wrap, center, center, center, 200px, relative);
+    margin-top: 80px;
+    background: linear-gradient(180deg, $commom-1, $strong-impact);
+    // text-align: center;
+    /* position: relative;
+    top: 100px; */
+    .logo-rodape
+    {
+        padding: 50px 0 0 0;
+    } 
+
+    .agencia{
+        @include logoEscrita();
+    }
+
+    .link-rodape
+    {
+        display: block;
+        color: $primary-1;
+        margin-top: 1%;
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
